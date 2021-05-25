@@ -1,0 +1,17 @@
+<div>
+  <div *ngIf="game">
+    <h2>{{game.name}}</h2>
+    <div class="container">
+      <img src="{{game.background_image}}" alt="Game image">
+      <div class="text">
+        <p><strong>Developers: </strong>{{game.developers}}</p>
+        <p><strong>Description: </strong>{{game.description_raw}}</p>
+        <p><strong>Rating: </strong>{{game.rating}}</p>
+        <p><strong>Released: </strong>{{game.released}}</p>
+      </div>
+    </div>
+    <div>
+      <button mat-raised-button color="accent" routerLink="/">Back</button>
+    </div>
+  </div>
+</div>

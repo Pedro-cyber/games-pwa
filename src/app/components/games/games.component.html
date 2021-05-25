@@ -1,0 +1,12 @@
+<h1>Game list</h1>
+<div class="container">
+  <mat-card *ngFor="let game of games" class="card" >
+    <mat-card-header>
+      <mat-card-title>{{game.name}}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="{{game.background_image}}" alt="Game image">
+    <mat-card-actions>
+      <button mat-raised-button color="primary" [routerLink]="['/game', game.id]">Details</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

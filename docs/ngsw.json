@@ -1,0 +1,96 @@
+{
+  "configVersion": 1,
+  "timestamp": 1621937473204,
+  "index": "/games-pwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/games-pwa/favicon.ico",
+        "/games-pwa/index.html",
+        "/games-pwa/main.c254fe22c15e079d6ffb.js",
+        "/games-pwa/manifest.webmanifest",
+        "/games-pwa/polyfills.00096ed7d93ed26ee6df.js",
+        "/games-pwa/runtime.7b63b9fd40098a2e8207.js",
+        "/games-pwa/styles.c87e8ce19886e21f3d8c.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/games-pwa/assets/icons/icon-128x128.png",
+        "/games-pwa/assets/icons/icon-144x144.png",
+        "/games-pwa/assets/icons/icon-152x152.png",
+        "/games-pwa/assets/icons/icon-192x192.png",
+        "/games-pwa/assets/icons/icon-384x384.png",
+        "/games-pwa/assets/icons/icon-512x512.png",
+        "/games-pwa/assets/icons/icon-72x72.png",
+        "/games-pwa/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "games-api",
+      "patterns": [
+        "https:\\/\\/api\\.rawg\\.io\\/api\\/.*"
+      ],
+      "strategy": "performance",
+      "maxSize": 10,
+      "maxAge": 259200000,
+      "timeoutMs": 1000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/games-pwa/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/games-pwa/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/games-pwa/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/games-pwa/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/games-pwa/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/games-pwa/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/games-pwa/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/games-pwa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/games-pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/games-pwa/index.html": "0ac673844fb39ca941118835aa45044e24b24d54",
+    "/games-pwa/main.c254fe22c15e079d6ffb.js": "788d9701dfb9d63e37547514b89cc18a1af2e854",
+    "/games-pwa/manifest.webmanifest": "b69e46bb660cea78530e59c8e5d2d0c8f24453e9",
+    "/games-pwa/polyfills.00096ed7d93ed26ee6df.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
+    "/games-pwa/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/games-pwa/styles.c87e8ce19886e21f3d8c.css": "fb65905e98d78ff3a0549cfdf299caa40ed832f0"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
